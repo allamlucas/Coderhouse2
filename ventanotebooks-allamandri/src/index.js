@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import * as bootstrap from 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import ItemListContainer from './components/ItemListContainer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
